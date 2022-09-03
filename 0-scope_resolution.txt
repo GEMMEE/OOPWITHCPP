@@ -1,0 +1,7 @@
+We are in an inner block
+k = 20
+m = 30
+::m = 10
+We are in the outer block
+m = 20
+::m = 10
