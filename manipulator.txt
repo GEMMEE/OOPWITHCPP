@@ -1,0 +1,4 @@
+     Basic       950
+ Allowance        95
+     Total      1045
+       Sum1045.00
