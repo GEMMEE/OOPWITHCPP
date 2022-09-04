@@ -1,0 +1,21 @@
+This program will wait for the user's input and takes any input entered and
+wait for another input on a new line and then it goes on like this 
+indefinitely till you end the program by ctrl ^ c.
+
+For example, when run, it waits for input:
+>3  //user entered 3
+>4  //user entered 4
+>5  //user entered 5
+>1  //user entered 6
+>8  //user entered 8
+>623  //user entered 623
+>     //wait for another input and and it goes on unless you end it 
+.	  //using ctrl + C
+.
+.
+Honestly, I did not understand how this is working! And I can't wait to 
+learn what is going on under the hood. Will update this when I get the
+hint!
+
+
+
