@@ -1,7 +1,21 @@
 #include <iostream>
 
 using namespace std;
+//FEW NOTES ON SCOPE RESOLUTION OPERATOR
+/*
+	#A major application of scope resolution operator(::) is in the classes
+	 to identify the class to which a member function belongs.
 
+	#In C, the global version of a variable cannot be accessed from within the
+	 inner block. C++ resolves this problem with a scope resolution operator, 
+	 which can be used to uncover a hidden variable or the global version of a
+	 variable.
+
+	#Scope resolution operator(::) and few other operators like member access 
+	 operators(. and .*), conditional operator(?:) and sizeof operator cannot
+	 be overloaded in C++. Remember almost all operators with these exceptions
+	 can be overloaded.
+*/
 int m = 10; //global m
 
 int main()
