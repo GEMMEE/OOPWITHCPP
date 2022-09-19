@@ -4,6 +4,9 @@
 Like any other data type, an object may be used as a function argument. This can be done in two ways:
 => pass-by-value: a copy of the entire object is passed to the function
 => pass-by-reference: only the address of the object is transferredd to the function
+
+=> An object can also be passed as an argument to
+   a non-member function.
 */
 
 #include <iostream>
