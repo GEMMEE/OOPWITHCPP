@@ -17,6 +17,34 @@ A friend function possesses the ff special characteristics:
 * Usually, it has the objects as arguments.
 
 * It is often used in operator overloading. 
+
+NB: Member functions of one class can be a friend functions of another class. In such cases, they are defined using scope resolution operator as shown below:
+
+  class X
+  {
+    ....
+    ....
+    int fun1();    //member function of X
+    ....
+  };
+
+  class Y
+  {
+    ....
+    ....
+    friend int X :: fun1();  // fun1() of X is friend of Y
+    ....
+  };
+
+We can also declare all the member functions of one class as the friend functions of another class. In such cases, the class is called a friend class.
+
+  class Z
+  {
+    ....
+    friend class X;  // all members functions of X are friends to Z
+    ....
+  }
+
 */
 
 #include <iostream>
