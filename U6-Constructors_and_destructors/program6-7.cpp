@@ -54,6 +54,19 @@ int main()
   return 0;
 }
 
+/**************** NOTE ****************************
+ * A class constructor is called everytime an object is created. Similarly, as the 
+ * program
+ * control leaves the current block  the objects in the block start getting destroyed
+ * and destructors are called for each one of them. Note that the objects are destroyed
+ * in the reverse order of their creation. Finally, when the main block is exited, 
+ * destructors are called corresponding to the remaining objects present inside main.
+ *
+ * 
+ * Note that we can attain similar functionality by defining count as static variable 
+ * inside the class in the above program.
+ ***********************************************/
+
 /***************** OUTPUT **********************
  Inside the main block..
  Creating first object T1..
