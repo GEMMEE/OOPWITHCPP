@@ -1,35 +1,45 @@
-# Unit 7 Operator Overloading and Type Conversions
+# **<mark>`OBJECT-ORIENTED PROGRAMMING WITH C++` </mark>**
+### (Eighth Edition)
 
-## **`Learning Objectives`**
+* Author: **`E Balagurusamy`**
 
-After going through this chapter, you will be able to
-+ Provide an overview of operator overloading
-+ Demonstrate how unary and binary operators are overloaded
-+ Illustrate how strings are manipulated using overloaded operators
-+ Identify the rules for overloading operators
-+ Discuss type conversion
+## `Contents`
+#### Unit 1. Principles of OOP
 
-**`______________________________________________________________`**
+#### Unit 2. Beginning with C++
 
-## **`Summary`**
+#### Unit 3. Tokens, Expressions and Control Structures
 
-- Operator overloading is one of the important features of C++ language that enhances its exhaustibility.
+#### Unit 4. Functions in C++
 
-- Using overloading feature we can add two user defined data types such as objects, with the same syntax, just as basic data types.
+#### Unit 5. Classes and Objects
 
-- We can overload almost all the C++ operators except the following:
-  + class member access operators(`.`  and `.*`)
-  + scope resolution operator(`::`)
-  + size operator(`sizeof`)
-  + conditional operator(`?:`)
+#### Unit 6. Constructors and Destructors
 
-- Operator overloading is done with the help of a special function, called operator function, which describes the special task to an operator.
+#### Unit 7. Operator Overloading and Type Conversions
 
-- There are certain restrictions and limitations in overloading operators. Operator functions must either be member functions (nonstatic) or friend functions. The overloading operator must have at least one operand that is of user-defined type.
+#### Unit 8. Inheritance: Extending Classes
 
-- The compiler does not support automatic type conversions for the user defined data types. We can use casting operator functions to achieve this.
+#### Unit 9. Pointers, Virtual Functions and Polymorphism
 
-- The casting operator function should satisfy the following conditions:
-  * It must be a class member
-  * It must not specify a return type
-  * It must not have any arguments
+#### Unit 10. Managing Console I/O Operations
+
+#### Unit 11. Working with Files
+
+#### Unit 12. Templates
+
+#### Unit 13. Exception Handling
+
+#### Unit 14. Introduction to the Standard Template Library
+
+#### Unit 15. Manipulating Strings
+
+#### Unit 16. New Features of ANSI C++ Standard
+
+#### Unit 17. Object-Oriented Systems Development
+
+**`__________________________________________________________________________________________`**
+
+Hopefully, after going through all the chapters doing the given practices, I will be a good C++ programmer.
+
+`Jaba` @ Oct 06, 2022
