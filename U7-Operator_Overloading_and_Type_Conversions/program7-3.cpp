@@ -91,3 +91,15 @@ int main()
   return 0;
 }
 
+/*
+Expected output
+__________________________________
+5 10 15
+m = (5, 10, 15)
+p = (10, 20, 30)
+q = (4, 8, 12)
+__________________________________
+But the above program is not running
+it says there is a problem on line 63.
+I could not debug it....may be later!
+*/
