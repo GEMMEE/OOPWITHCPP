@@ -39,7 +39,10 @@ int main()
   c1 = complex (2.5, 3.5);     //invokes constructor 2
   c2 = complex (1.6, 2.7);
 
-  c3 = c1 + c2;
+  c3 = c1 + c2;              //c1 invokes operator+() function
+                              //c2 plays the role of an argument
+                              //it's equivalent to 
+  //c3 = c1.operator+(c2);                           
 
   cout << "c1 = "; c1.display();
   cout << "c2 = "; c2.display();
